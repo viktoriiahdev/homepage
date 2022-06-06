@@ -2,9 +2,210 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Résumé</title>
+
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Viktoriia Hrytsenko</h1>
+            <h3 class="contact-info__sub-header">JavaScript developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block"></div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Avatar" />
+              </div>
+
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>Cherkasy, Ukraine</span>
+                </a>
+                <a href="tel:+380932364952" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                      />
+                    </svg>
+                  </div>
+                  <span>+380932364952</span>
+                </a>
+                <a href="mailto:dev.viktoriia.h@gmail.com" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                      />
+                    </svg>
+                  </div>
+                  <span>dev.viktoriia.h@gmail.com</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/viktoriia-hrytsenko-a5a587237/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>viktoriia-hrytsenko</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                Hi! My name is Viktoriia! I have a Master's degree of System Analysis from Cherkasy
+                National University named after Bohdan Khmelnytsky. For past 6 years I've been
+                working as a WordPress web developer. Now I have a big desire to become a Frontend
+                or Fullstack JavaScript developer, so I use every opportunity to do it. Will be
+                happy to be part of your community.😉
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Hard skills 💪🏻</h3>
+              <p class="skills__text">
+                High level HTML5, CSS3 (sass/scss), BEM, JavaScript (jQuery), PHP, WordPress,
+                HubSpot. Git version control, GitHub. Code review. SQL databases, MongoDB.
+                Intermediate level C ++, C #, React.js, Node.js. Basics of Java, Python, machine
+                learning, neural networks. Free use of MS Office, graphic editors Adobe Photoshop,
+                Figma, Sketch, Canva.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Soft skills ☺️</h3>
+              <p class="skills__text">
+                Agile, SCRUM. Team player. Self development. Courses. Responsible, attentive,
+                hardworking, communicative, always open to new knowledge and skills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Timeline</h3>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">For whole my life</span>
+                    <h3 class="experiences__company-header-name">Now</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>from February 2022 - learning JavaScript.</li>
+                    </ul>
+                  </div>
+                  <div class="experiences__company-header">
+                    <h3 class="experiences__company-header-name">Before</h3>
+                  </div>
+                  <div class="experiences__company-project">
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>2021 - Master of Systems Analysis</li>
+                      <li>2019 - bachelor of Systems Analysis.</li>
+                      <li>2017 - 2020 – work as freelancer in Upwork.</li>
+                      <li>
+                        from 2015 - student of Cherkasy National University named after Bohdan
+                        Khmelnytsky
+                      </li>
+                      <li>2015 - relocated to Cherkasy.</li>
+                      <li>
+                        2015 - certificate of complete general secondary education with honors.
+                      </li>
+                      <li>2004 - go to primary school.</li>
+                      <li>May 25th 1998 - I was born.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2015-2019</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      System Analysis (Master)
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Cherkasy National University named after Bohdan Khmelnytsky
+                    </p>
+                  </div>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2015-2019</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      System Analysis (Bachelor)
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Cherkasy National University named after Bohdan Khmelnytsky
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages 🗣</h3>
+                  <p class="additional-info__languages-item">Ukrainian native.</p>
+                  <p class="additional-info__languages-item">Russian - high level.</p>
+                  <p class="additional-info__languages-item">English - B2 / Upper-Intermediate.</p>
+                  <p class="additional-info__languages-item">German - entry level.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
